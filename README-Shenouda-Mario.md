@@ -38,8 +38,8 @@ Dieser Rechner enthaelt Methoden zum Durchfuehren mathematischer Operationen:
 
 Aufgaben liste
 
-- [Exercise 1](exercise1.md)
-- [Exercise 2](exercise2.md)  
+- In dieser lernen wir wie koennen wir ein readme file erstellen [Exercise 1](exercise1.md)
+- In dieser uebung lernen wir die grundlegenden Git Befehle.[Exercise 2](exercise2.md)  
 - [Exercise 3](exercise3.md)  
 - [Exercise 4](exercise4.md)  
 - [Exercise 5](exercise5.md)  
