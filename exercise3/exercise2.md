@@ -18,11 +18,11 @@ In dieser uebung lernen wir die grundlegenden Git Befehle und wie man sie anwend
 ### ScreenShot Fuer befehler in git 
 
 Erste Schrit zum git init
-![git init](resources/git_init.png)
+![git init](../exercise2/resources/git_init.png)
 
 git status zeigt die aktuellen status des Repository
-![git_status](resources/git_status.png)
+![git_status](../exercise2/resources/git_status.png)
 
 git log Zeigt den Commit-Verlauf an.
-![git_log](resources/git_log.png)
+![git_log](../exercise2/resources/git_log.png)
 
