@@ -7,5 +7,6 @@ public class main {
         System.out.println("Subtraktion: " + calc.minus(10, 5));
         System.out.println("Multiplikation: " + calc.multiply(10, 5));
         System.out.println("Division: " + calc.divide(10, 5));
+        System.out.println("Mario Shenouda");
     }
 }
