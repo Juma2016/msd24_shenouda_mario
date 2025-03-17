@@ -5,7 +5,7 @@
 
 ### Alahly Symbole
 
-![AlAhly](ALAHLY.jpg)
+![AlAhly](../exercise2/ALAHLY.jpg)
 
 ### Web Seite
 
