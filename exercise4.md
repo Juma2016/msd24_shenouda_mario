@@ -40,6 +40,6 @@ Zunaechst wurden die oben genannten Tests implementiert, die erwartungsgemaess f
 
 Nachdem alle Tests bestanden wurden, wurde der Code optimiert (Refactoring), ohne die Funktionalitaet zu veraendern.
 
-![REFACTOR-PHASE](resources/Images/ex4-2.png)
+![REFACTOR-PHASE](resources/Images/ex4-1.png)
 Screenshot der Testabdeckung nach erfolgreichem Testlauf
 
