@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: at.fhj.msd.CalculatorTest
 -------------------------------------------------------------------------------
-Tests run: 16, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.078 s <<< FAILURE! -- in at.fhj.msd.CalculatorTest
-at.fhj.msd.CalculatorTest.testFactorialNegative -- Time elapsed: 0.006 s <<< FAILURE!
-org.opentest4j.AssertionFailedError: Factorial of a negative number should be 0 ==> expected: <0> but was: <1>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
-	at at.fhj.msd.CalculatorTest.testFactorialNegative(CalculatorTest.java:124)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.070 s -- in at.fhj.msd.CalculatorTest

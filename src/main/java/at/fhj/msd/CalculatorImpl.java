@@ -54,7 +54,14 @@ public class CalculatorImpl implements ICalculator {
 
     @Override
 public int factorial(int n) {
-    return (n<= 1) ? 1 : n * factorial(n-1);
+   if (n<0)
+   return 0;
+   
+   if  (n<=1)   
+   return 1;
+   else
+   return n * factorial(n-1);
+   
     
 }
 
