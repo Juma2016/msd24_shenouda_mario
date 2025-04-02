@@ -40,8 +40,8 @@ Aufgaben liste
 
 - In dieser lernen wir wie koennen wir ein readme file erstellen [Exercise 1](exercise1.md)
 - In dieser uebung lernen wir die grundlegenden Git Befehle.[Exercise 2](exercise2.md)  
-- In dieser uebnung lernen wir uebr mven [Exercise 3](exercise3.md)  
-- [Exercise 4](exercise4.md)  
+- In dieser uebnung lernen wir ueber mven [Exercise 3](exercise3.md)  
+- IN dieser uebnung lernen wir ueber JUnit-Testmethoden[Exercise 4](exercise4.md)  
 - [Exercise 5](exercise5.md)  
 - [Exercise 6](exercise6.md)  
 
