@@ -102,10 +102,7 @@ public class CalculatorTest {
 @Test
 @DisplayName("Test factorial with a positive number (5)")
 void testFactorialPositive() {
-    // GIVEN: يكون الكائن calculator جاهزًا
-    // WHEN: حساب factorial للقيمة 5
     int result = calculator.factorial(5);
-    // THEN: نتوقع الحصول على 120
     assertEquals(120, result, "Factorial of 5 should be 120");
 }
 
@@ -119,7 +116,6 @@ void testFactorialZero() {
 @Test
 @DisplayName("Test factorial with a negative number (-3)")
 void testFactorialNegative() {
-    // نفترض أن الدالة ترجع 0 للقيم السالبة
     int result = calculator.factorial(-3);
     assertEquals(0, result, "Factorial of a negative number should be 0");
 }
