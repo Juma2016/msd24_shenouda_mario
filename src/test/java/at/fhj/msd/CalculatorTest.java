@@ -93,4 +93,11 @@ public class CalculatorTest {
         assertThrows(ArithmeticException.class, () -> calculator.divide(10, 0),
                      "Division by zero should throw ArithmeticException");
     }
+    @Test
+    @DisplayName("Testing factorial() method with valid input")
+    void testFactorial() {
+    int result = calculator.factorial(5);
+    assertEquals(120, result, "Factorial of 5 should be 120");
+}
+
 }
