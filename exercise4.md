@@ -29,7 +29,7 @@ Da die Fakultaet für negative Zahlen nicht definiert ist, soll die Methode fact
 
 Zunaechst wurden die oben genannten Tests implementiert, die erwartungsgemaess fehlschlagen, da die factorial()-Methode noch nicht korrekt implementiert war.
 
-![RED-PHASE](resources/Images/ex4-2.png)
+![RED-PHASE](resources/Images/ex4_2.png)
  Ein Screenshot der fehlschlagenden Tests (Red-Phase) wurde als ex4_2.png im Ordner resources/images gespeichert.
 
 ### Green-Phase
@@ -40,6 +40,6 @@ Zunaechst wurden die oben genannten Tests implementiert, die erwartungsgemaess f
 
 Nachdem alle Tests bestanden wurden, wurde der Code optimiert (Refactoring), ohne die Funktionalitaet zu veraendern.
 
-![REFACTOR-PHASE](resources/Images/ex4-1.png)
+![REFACTOR-PHASE](resources/Images/ex4_1.png)
 Screenshot der Testabdeckung nach erfolgreichem Testlauf
 
