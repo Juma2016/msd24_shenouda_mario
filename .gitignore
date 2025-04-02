@@ -3,5 +3,5 @@
 .idea/
 .vscode/
 .DS_Store
-/.idea/
+/target/
 
