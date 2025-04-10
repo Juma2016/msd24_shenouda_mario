@@ -2,10 +2,19 @@ package at.fhj.msd;
 
 import java.util.Scanner;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+
 public class main {
+    private static final Logger logger = LogManager.getLogger(main.class);
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ICalculator calculator = new CalculatorImpl(); // Verwendet deine Implementierung
+
+
+        logger.info("Die Addition wurde erfolgreich ausgeführt.");
+        logger.error("Fehler: Versuch, 10 durch 0 zu teilen – Vorgang nicht erlaubt!");
 
         System.out.println("📢 Willkommen beim Taschenrechner!");
 

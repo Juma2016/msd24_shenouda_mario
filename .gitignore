@@ -4,5 +4,6 @@
 .vscode/
 .DS_Store
 /target/
+logs/
+*.log
 src/main/resources/log4j2.xml
-
