@@ -8,6 +8,8 @@ Logging-Bibliotheken werden eingesetzt, um Ereignisse und Operationen innerhalb 
 - **Performance-Monitoring:** Durch das Protokollieren von Systemaktivitäten kann die Leistung der Anwendung analysiert und optimiert werden.
 - **Dokumentation von Systemereignissen:** Logfiles bieten eine Historie der Systemaktivitäten, die für spätere Analysen oder Audits verwendet werden können.
 
+![Logging_branch](resources/Images/ex5_1.png)
+
 ## Welche Loglevel gibt es in Log4J und was hat es damit auf sich?
 
 Log4J unterscheidet mehrere Log-Level, die unterschiedliche Detailstufen und Schweregrade der Meldungen repräsentieren:
@@ -23,6 +25,8 @@ Log4J unterscheidet mehrere Log-Level, die unterschiedliche Detailstufen und Sch
 - **FATAL:**
   - Dient zur Protokollierung schwerwiegender Fehler, die zum Absturz der Anwendung führen können.
 
+  ![Debug_Error](resources/Images/ex5_3.png)
+
 ## Was für Konfigurationsmöglichkeiten bietet Ihnen Log4J?
 
 Log4J bietet vielfältige Konfigurationsmöglichkeiten, um das Logging flexibel und anpassbar zu gestalten:
@@ -35,3 +39,8 @@ Log4J bietet vielfältige Konfigurationsmöglichkeiten, um das Logging flexibel 
   - Es besteht die Möglichkeit, den Log-Level global oder für einzelne Logger individuell zu konfigurieren.
 - **Unterstützte Konfigurationsformate:**
   - Log4J kann mittels XML, JSON oder YAML konfiguriert werden, was eine einfache Integration und Anpassung ermöglicht.
+
+  ![Info_Error](resources/Images/ex5_2.png)
+
+
+  ![git_status](resources/Images/ex5_4.png)
