@@ -50,6 +50,7 @@ public class CalculatorImpl implements ICalculator {
         }
         double result = number1 / number2;
         logger.debug("Ergebnis der Division: " + result);
+
         return result;
     }
     
