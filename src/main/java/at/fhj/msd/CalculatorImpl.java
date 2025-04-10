@@ -1,6 +1,10 @@
 package at.fhj.msd;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class CalculatorImpl implements ICalculator {
+
+    private static final Logger logger = LogManager.getLogger(CalculatorImpl.class);
 
     /**
      * Easy Calculator for first steps in test automation for Educational Usage
@@ -16,6 +20,7 @@ public class CalculatorImpl implements ICalculator {
      */
     @Override
     public double add(double number1, double number2) {
+        logger.debug("Aufruf von add() mit Parametern: number1 = " + number1 + ", number2 = " + number2);
         return number1 + number2;
     }
 
@@ -26,6 +31,8 @@ public class CalculatorImpl implements ICalculator {
      */
     @Override
     public double minus(double number1, double number2) {
+        logger.debug("Aufruf von subtract() mit Parametern: number1 = " + number1 + ", number2 = " + number2);
+
         return number1 - number2;
     }
 
@@ -36,11 +43,17 @@ public class CalculatorImpl implements ICalculator {
      */
     @Override
     public double divide(double number1, double number2) {
-        double quotient = number1 / number2;
-        if (Double.isNaN(quotient) || Double.isInfinite(quotient))
-            throw new ArithmeticException("Division " + number1 + " / " + number2 + " isn't possible");
-        return number1 / number2;
+        logger.debug("Aufruf von divide() mit parametern: number1=" + number1+", number2= "+number2);
+        if(number2 == 0 || Double.isNaN(number1 / number2) || Double.isInfinite(number1 / number2)) {
+            logger.error("Fehler: Division durch Null oder ungültige Division! number1 = " + number1 + ", number2 = " + number2);
+            throw new ArithmeticException("Division durch Null ist nicht erlaubt");
+        }
+        double result = number1 / number2;
+        logger.debug("Ergebnis der Division: " + result);
+        return result;
     }
+    
+    
 
     /*
      * (non-Javadoc)
@@ -49,6 +62,8 @@ public class CalculatorImpl implements ICalculator {
      */
     @Override
     public double multiply(double number1, double number2) {
+        logger.debug("Aufruf von multiply() mit Parametern: number1 = " + number1 + ", number2 = " + number2);
+
         return number1 * number2;
     }
 
