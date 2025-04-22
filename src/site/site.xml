@@ -1,14 +1,12 @@
-<project name="Drinks Documentation Demo">
-	<publishDate position="right"/>
-	<version position="left"/>
-	<body>
-
-		<menu name="Overview">
-			<item name="Introduction" href="index.html" />
-			<item name="Test" href="test.html" />
-			<item name="Drinks" href="drinks.html" />
-		</menu>
-		<menu ref="reports" />
-
-	</body>
-</project>
+<site xmlns="http://maven.apache.org/DECORATION/1.0.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://maven.apache.org/DECORATION/1.0.0
+                          http://maven.apache.org/xsd/decoration-1.0.0.xsd">
+  <body>
+    <menu name="Dokumentation">
+      <item name="Übung 6" href="markdown/exercise6.html"/>
+      <item name="Good Style" href="markdown/good_style.html"/>
+    </menu>
+    <menu ref="reports"/>
+  </body>
+</site>
