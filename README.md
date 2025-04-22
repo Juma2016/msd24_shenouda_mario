@@ -32,7 +32,7 @@ Dieser Rechner enthaelt Methoden zum Durchfuehren mathematischer Operationen:
 
 - **`pom.xml`**: Dies dient der Ermittlung der Abhaengigkeit des Projekts und der Plugins.
 - **`ICalculator.java`**: interface fuer alle methoden in projekt
-- **`CalculatorImpl.java`**: implementation fuer methoden 
+- **`CalculatorImpl.java`**: implementation fuer methoden
 
 ## uebungen
 
