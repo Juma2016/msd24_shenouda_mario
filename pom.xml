@@ -1,15 +1,38 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
+
+
   <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+
+
   <groupId>at.fhj.msd</groupId>
   <artifactId>calculator</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>calculator</name>
   <url>http://maven.apache.org</url>
+
+  
+  <developers>
+  <developer>
+    <id>juma2016</id>
+    <name>Mario Shenouda</name>
+    <email>mario.shenouda@edu.fh-joanneum.at</email>
+    <roles>
+      <role>Developer</role>
+    </roles>
+  </developer>
+</developers>
+
+<scm>
+  <connection>scm:git:https://github.com/Juma2016/msd24_shenouda_mario.git</connection>
+  <developerConnection>scm:git:git@github.com:Juma2016/msd24_shenouda_mario.git</developerConnection>
+  <url>https://github.com/Juma2016/msd24_shenouda_mario</url>
+</scm>
+
 <dependencies>
   <dependency>
     <groupId>org.junit.jupiter</groupId>
@@ -39,7 +62,7 @@
    <artifactId>log4j-core</artifactId>
    <version>2.22.1</version>
   </dependency>
-  <!-- Optional: Logging Bridge für System.out/System.err -->
+ 
   <dependency>
     <groupId>org.apache.logging.log4j</groupId>
     <artifactId>log4j-slf4j-impl</artifactId>
@@ -58,6 +81,26 @@
               </configuration>
           </plugin>
           <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <version>3.5.0</version>
+          </plugin>
+          <plugin>
+             <groupId>org.jacoco</groupId>
+              <artifactId>jacoco-maven-plugin</artifactId>
+              <version>0.8.10</version>
+            <executions>
+            <execution>
+            <goals><goal>prepare-agent</goal></goals>
+            </execution>
+          <execution>
+            <id>report</id>
+            <phase>verify</phase>
+            <goals><goal>report</goal></goals>
+          </execution>
+          </executions>
+        </plugin>
+          <plugin>
               <groupId>org.codehaus.mojo</groupId>
               <artifactId>exec-maven-plugin</artifactId>
               <version>3.0.0</version>
@@ -67,6 +110,27 @@
           </plugin>
       </plugins>
   </build>
+
+  <reporting>
+      <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-site-plugin</artifactId>
+        <version>3.12.1</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.5.0</version>
+      </plugin>
+      <plugin>
+        <groupId>org.jacoco</groupId>
+        <artifactId>jacoco-maven-plugin</artifactId>
+        <version>0.8.10</version>
+      </plugin>
+    </plugins>
+</reporting>
+
 
 </project>
 
