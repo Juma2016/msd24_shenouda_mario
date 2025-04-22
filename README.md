@@ -43,7 +43,7 @@ Aufgaben liste
 - In dieser uebnung lernen wir ueber mven [Exercise 3](exercise3.md)  
 - IN dieser uebnung lernen wir ueber JUnit-Testmethoden[Exercise 4](exercise4.md)  
 - IN dieser uebnung lernen wir ueber Branching[Exercise 5](exercise5.md)  
-- [Exercise 6](exercise6.md)  
+- In dieser uebung lernen wir ueber Documnatation[Exercise 6](src/site/markdown/exercise6.md)  
 
 ## Weitere Informationen
 
